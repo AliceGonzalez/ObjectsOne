@@ -6,7 +6,7 @@ public class Main {
         Logger logger = Logger.getLogger(Main.class.getName());
         logger.info("This is a module-using Hello World!");
 
-        Person person = new Person("Nick", 37, 45);
+        Person person = new Person("Alice", 30, 87);
         System.out.println(("height: " + person.getHeight()));
 
         Chair chair = new Chair("red", 4, true);
