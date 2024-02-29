@@ -6,7 +6,8 @@ public class Main {
         Logger logger = Logger.getLogger(Main.class.getName());
         logger.info("This is a module-using Hello World!");
 
-        Person person = new Person("Alice", 30, 87);
+        Person person = new Person("Alice", 30);
+        person.setHeight(180);
         System.out.println(("height: " + person.getHeight()));
 
         Chair chair = new Chair("red", 4, true);
@@ -18,9 +19,10 @@ public class Main {
                 " Year: " + car1.getYear() + " Manual: " + car1.getIsManual());
 
         Person[] people = new Person[3];
-        Person people1 = new Person("Laura", 23, 88);
-        Person people2 = new Person("Bobby", 65, 90);
-        Person people3 = new Person("Susan", 34, 89);
+        Person people1 = new Person("Laura", 23);
+        Person people2 = new Person("Bobby", 65);
+        Person people3 = new Person("Susan", 34);
+
         people[0] = people1;
         people[1] = people2;
         people[2] = people3;

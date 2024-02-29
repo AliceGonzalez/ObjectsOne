@@ -5,16 +5,16 @@ class Person {
     // Define Instance Variables
     // different for each object!
     String name;
-    int age = 0;
+    int age;
 
     int height;
 
 
     // Constructor
-    public Person(String name, int age, int height) {
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
-        this.height = height ;
+        this.height = 0 ;
     }
 
     public String getName() {
