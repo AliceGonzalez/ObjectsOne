@@ -6,14 +6,15 @@ class Person {
     // different for each object!
     String name;
     int age = 0;
-    int height = 0; // Unit in centimeters
+
+    int height;
 
 
     // Constructor
     public Person(String name, int age, int height) {
         this.name = name;
         this.age = age;
-        this.height = height;
+        this.height = height ;
     }
 
     public String getName() {
